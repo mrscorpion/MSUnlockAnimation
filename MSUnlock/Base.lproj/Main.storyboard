@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0OX-nj-p5W">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5TT-8G-a3a">
+            <objects>
+                <viewController id="0OX-nj-p5W" customClass="ViewController" customModule="MSUnlock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jax-ji-b6b"/>
+                        <viewControllerLayoutGuide type="bottom" id="BzX-jS-ZYh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Uq-wE-3gX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topLock" translatesAutoresizingMaskIntoConstraints="NO" id="UM4-e4-lnu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomLock" translatesAutoresizingMaskIntoConstraints="NO" id="cso-Yq-90z">
+                                <rect key="frame" x="0.0" y="284" width="320" height="284"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lockBorder" translatesAutoresizingMaskIntoConstraints="NO" id="M3m-TL-spz">
+                                <rect key="frame" x="120" y="244" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="IlN-7J-cva"/>
+                                    <constraint firstAttribute="height" constant="80" id="Xor-LH-qNa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lockKeyhole" translatesAutoresizingMaskIntoConstraints="NO" id="zwp-mK-8Ke">
+                                <rect key="frame" x="135" y="259" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="3kI-TU-6kW"/>
+                                    <constraint firstAttribute="height" constant="50" id="66l-Ul-amY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zwp-mK-8Ke" firstAttribute="centerX" secondItem="6Uq-wE-3gX" secondAttribute="centerX" id="8NU-WI-0QB"/>
+                            <constraint firstItem="cso-Yq-90z" firstAttribute="top" secondItem="UM4-e4-lnu" secondAttribute="bottom" id="8Tt-OF-1aj"/>
+                            <constraint firstItem="zwp-mK-8Ke" firstAttribute="centerY" secondItem="6Uq-wE-3gX" secondAttribute="centerY" id="IXm-kV-9le"/>
+                            <constraint firstItem="UM4-e4-lnu" firstAttribute="top" secondItem="6Uq-wE-3gX" secondAttribute="top" id="Jvn-NU-9tR"/>
+                            <constraint firstItem="M3m-TL-spz" firstAttribute="centerY" secondItem="6Uq-wE-3gX" secondAttribute="centerY" id="MkJ-JN-2hH"/>
+                            <constraint firstItem="UM4-e4-lnu" firstAttribute="leading" secondItem="6Uq-wE-3gX" secondAttribute="leading" id="RFd-k7-LlR"/>
+                            <constraint firstAttribute="trailing" secondItem="UM4-e4-lnu" secondAttribute="trailing" id="cSW-vv-rDD"/>
+                            <constraint firstItem="cso-Yq-90z" firstAttribute="leading" secondItem="6Uq-wE-3gX" secondAttribute="leading" id="cUi-dQ-FnK"/>
+                            <constraint firstItem="M3m-TL-spz" firstAttribute="centerX" secondItem="6Uq-wE-3gX" secondAttribute="centerX" id="iIQ-Zm-9KS"/>
+                            <constraint firstItem="cso-Yq-90z" firstAttribute="height" secondItem="UM4-e4-lnu" secondAttribute="height" id="m6T-LB-Zvw"/>
+                            <constraint firstItem="BzX-jS-ZYh" firstAttribute="top" secondItem="cso-Yq-90z" secondAttribute="bottom" id="v2M-dv-td8"/>
+                            <constraint firstAttribute="trailing" secondItem="cso-Yq-90z" secondAttribute="trailing" id="wb0-Zu-uvn"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="bottomLock" destination="cso-Yq-90z" id="NNb-gk-HfV"/>
+                        <outlet property="lockBorder" destination="M3m-TL-spz" id="KSq-xw-bZl"/>
+                        <outlet property="lockKeyhole" destination="zwp-mK-8Ke" id="fBl-YV-HxG"/>
+                        <outlet property="topLock" destination="UM4-e4-lnu" id="Mc6-Ck-FA9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFq-sT-x47" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="295"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bottomLock" width="4184" height="2118"/>
+        <image name="lockBorder" width="802" height="800"/>
+        <image name="lockKeyhole" width="496" height="496"/>
+        <image name="topLock" width="4183" height="2117"/>
+    </resources>
+</document>

@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64201C71D509FB900D93F82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64201C61D509FB900D93F82 /* AppDelegate.swift */; };
+		A64201C91D509FB900D93F82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64201C81D509FB900D93F82 /* ViewController.swift */; };
+		A64201CC1D509FB900D93F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64201CA1D509FB900D93F82 /* Main.storyboard */; };
+		A64201CE1D509FB900D93F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64201CD1D509FB900D93F82 /* Assets.xcassets */; };
+		A64201D11D509FB900D93F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64201CF1D509FB900D93F82 /* LaunchScreen.storyboard */; };
+		A64201DC1D509FB900D93F82 /* MSUnlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64201DB1D509FB900D93F82 /* MSUnlockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A64201D81D509FB900D93F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64201BB1D509FB900D93F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A64201C21D509FB900D93F82;
+			remoteInfo = MSUnlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A64201C31D509FB900D93F82 /* MSUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64201C61D509FB900D93F82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A64201C81D509FB900D93F82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A64201CB1D509FB900D93F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A64201CD1D509FB900D93F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A64201D01D509FB900D93F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A64201D21D509FB900D93F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64201D71D509FB900D93F82 /* MSUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64201DB1D509FB900D93F82 /* MSUnlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSUnlockTests.swift; sourceTree = "<group>"; };
+		A64201DD1D509FB900D93F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64201C01D509FB900D93F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64201D41D509FB900D93F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64201BA1D509FB900D93F82 = {
+			isa = PBXGroup;
+			children = (
+				A64201C51D509FB900D93F82 /* MSUnlock */,
+				A64201DA1D509FB900D93F82 /* MSUnlockTests */,
+				A64201C41D509FB900D93F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64201C41D509FB900D93F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64201C31D509FB900D93F82 /* MSUnlock.app */,
+				A64201D71D509FB900D93F82 /* MSUnlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64201C51D509FB900D93F82 /* MSUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				A64201C61D509FB900D93F82 /* AppDelegate.swift */,
+				A64201C81D509FB900D93F82 /* ViewController.swift */,
+				A64201CA1D509FB900D93F82 /* Main.storyboard */,
+				A64201CD1D509FB900D93F82 /* Assets.xcassets */,
+				A64201CF1D509FB900D93F82 /* LaunchScreen.storyboard */,
+				A64201D21D509FB900D93F82 /* Info.plist */,
+			);
+			path = MSUnlock;
+			sourceTree = "<group>";
+		};
+		A64201DA1D509FB900D93F82 /* MSUnlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A64201DB1D509FB900D93F82 /* MSUnlockTests.swift */,
+				A64201DD1D509FB900D93F82 /* Info.plist */,
+			);
+			path = MSUnlockTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64201C21D509FB900D93F82 /* MSUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64201E01D509FB900D93F82 /* Build configuration list for PBXNativeTarget "MSUnlock" */;
+			buildPhases = (
+				A64201BF1D509FB900D93F82 /* Sources */,
+				A64201C01D509FB900D93F82 /* Frameworks */,
+				A64201C11D509FB900D93F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSUnlock;
+			productName = MSUnlock;
+			productReference = A64201C31D509FB900D93F82 /* MSUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A64201D61D509FB900D93F82 /* MSUnlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64201E31D509FB900D93F82 /* Build configuration list for PBXNativeTarget "MSUnlockTests" */;
+			buildPhases = (
+				A64201D31D509FB900D93F82 /* Sources */,
+				A64201D41D509FB900D93F82 /* Frameworks */,
+				A64201D51D509FB900D93F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A64201D91D509FB900D93F82 /* PBXTargetDependency */,
+			);
+			name = MSUnlockTests;
+			productName = MSUnlockTests;
+			productReference = A64201D71D509FB900D93F82 /* MSUnlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64201BB1D509FB900D93F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mr.scorpion;
+				TargetAttributes = {
+					A64201C21D509FB900D93F82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GXHE3742MX;
+					};
+					A64201D61D509FB900D93F82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GXHE3742MX;
+						TestTargetID = A64201C21D509FB900D93F82;
+					};
+				};
+			};
+			buildConfigurationList = A64201BE1D509FB900D93F82 /* Build configuration list for PBXProject "MSUnlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64201BA1D509FB900D93F82;
+			productRefGroup = A64201C41D509FB900D93F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64201C21D509FB900D93F82 /* MSUnlock */,
+				A64201D61D509FB900D93F82 /* MSUnlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64201C11D509FB900D93F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64201D11D509FB900D93F82 /* LaunchScreen.storyboard in Resources */,
+				A64201CE1D509FB900D93F82 /* Assets.xcassets in Resources */,
+				A64201CC1D509FB900D93F82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64201D51D509FB900D93F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64201BF1D509FB900D93F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64201C91D509FB900D93F82 /* ViewController.swift in Sources */,
+				A64201C71D509FB900D93F82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64201D31D509FB900D93F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64201DC1D509FB900D93F82 /* MSUnlockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A64201D91D509FB900D93F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A64201C21D509FB900D93F82 /* MSUnlock */;
+			targetProxy = A64201D81D509FB900D93F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A64201CA1D509FB900D93F82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64201CB1D509FB900D93F82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A64201CF1D509FB900D93F82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64201D01D509FB900D93F82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64201DE1D509FB900D93F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A64201DF1D509FB900D93F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64201E11D509FB900D93F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A64201E21D509FB900D93F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MSUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A64201E41D509FB900D93F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSUnlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSUnlock.app/MSUnlock";
+			};
+			name = Debug;
+		};
+		A64201E51D509FB900D93F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MSUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mr.scorpion.MSUnlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSUnlock.app/MSUnlock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64201BE1D509FB900D93F82 /* Build configuration list for PBXProject "MSUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64201DE1D509FB900D93F82 /* Debug */,
+				A64201DF1D509FB900D93F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64201E01D509FB900D93F82 /* Build configuration list for PBXNativeTarget "MSUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64201E11D509FB900D93F82 /* Debug */,
+				A64201E21D509FB900D93F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A64201E31D509FB900D93F82 /* Build configuration list for PBXNativeTarget "MSUnlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64201E41D509FB900D93F82 /* Debug */,
+				A64201E51D509FB900D93F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64201BB1D509FB900D93F82 /* Project object */;
+}
